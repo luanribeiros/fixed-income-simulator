@@ -1,0 +1,54 @@
+html,
+body {
+  .container-box {
+    max-width: 1200px;
+    margin: 30px auto;
+    background-color: #f4f4f4;
+
+    h1 {
+      font-size: 2em;
+      font-family: sans-serif;
+      padding: 1em;
+    }
+
+    &__simulator {
+      background-color: white;
+      display: flex;
+      padding: 0 1em 1em 0;
+      border: 10px solid #f4f4f4;
+
+      h2 {
+        font-size: 1em;
+        font-family: sans-serif;
+        padding: 0.5em 0 1.5em 1em;
+      }
+
+      &Left {
+        width: 20%;
+
+        border-right: 1px solid #f4f4f4;
+
+        padding-bottom: 3em;
+        .box {
+          padding: 0 1em;
+        }
+
+        h3,
+        p {
+          font-size: 0.8em;
+        }
+
+        .textValue {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          height: 15px;
+        }
+      }
+
+      &Right {
+        width: 80%;
+      }
+    }
+  }
+}
